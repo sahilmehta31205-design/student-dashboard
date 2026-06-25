@@ -105,3 +105,4 @@ elif page == "🏆 Feature Importance":
                  color_continuous_scale="Blues")
     st.plotly_chart(fig, use_container_width=True)
     st.dataframe(importance_df, use_container_width=True)
+
